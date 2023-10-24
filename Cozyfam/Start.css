@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 500%;
+    color: coral;
+    background-color: rgb(159, 90, 223);
+    letter-spacing: -5px;
+}
+/* unvisited link */
+a:link {
+    color: coral;
+  }
+
+  /* visited link */
+a:visited {
+    color: green;
+  }
+
+.Korea{
+    letter-spacing: -1px;
+    color: coral;
+}
+
+.Korea :hover{
+    font-size: 300%;
+    text-transform: uppercase
+}
+
+.Vancouver{
+    letter-spacing: -1px;
+}
+
+.Vancouver :hover{
+    font-size: 300%;
+    text-transform: uppercase
+}
+
+.Kuwait{
+    letter-spacing: -1px;
+}
+.Kuwait :hover{
+    font-size: 300%;
+    text-transform: uppercase
+}
+
+.NYC{
+    letter-spacing: -1px;
+}
+.NYC :hover{
+    font-size: 300%;
+    text-transform: uppercase
+}
+
+.back{
+    position: absolute;
+    top: 1px;
+    font-size: 50%;
+    letter-spacing: -2px;
+}
+
+.back :hover{
+    text-transform: uppercase;
+}
