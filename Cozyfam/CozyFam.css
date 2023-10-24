@@ -1,0 +1,75 @@
+/* Style the header */
+.title {
+    background-color: #f1f1f1;
+    color: coral;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 500%;
+    letter-spacing: -5px;
+    position: relative;
+    left: 175%;
+    animation: infinite;
+    animation: mymove 5s infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes mymove {
+    0%   {background: #8ad7bb; left: 0px; top: 0px;}
+    25%  {background: rgb(118, 255, 255); left: 200px; top: 0px;}
+    50%  {background: rgb(118, 255, 255); left: 400px; top: 0px;}
+    75%  {background: rgb(118, 255, 255); left: 600px; top: 0px;}
+    100% {background: #8ad7bb; left: 1000px; top: 0px;}
+  }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-weight: 100;
+    text-align: center;
+    background-color: rgb(118, 255, 255);
+}
+
+.start{
+    background-color: rgb(118, 255, 255);
+    width: 100%;
+    position: absolute;
+    left: 155%;
+    top: 350px;
+    transition: height 2s;
+}
+
+.start :hover{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(117, 153, 141);
+    text-transform: uppercase;
+}
+
+
+.gallery{
+    background-color: (118, 255, 255);
+    width: 100%;
+    position: absolute;
+    top: 350px;
+    left: 35%;
+}
+
+.gallery :hover{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(117, 153, 141);
+    text-transform: uppercase;
+}
+
+.Instagram{
+    background-color: (118, 255, 255);
+    width: 100%;
+    position: absolute;
+    top: 350px;
+    left: 295%;
+}
+
+.Instagram :hover{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(117, 153, 141);
+    text-transform: uppercase;
+}
