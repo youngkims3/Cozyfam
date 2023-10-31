@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(40, 40, 140);
+}
+/* visited link */
+a:visited {
+    color: white;
+  }
+h1{
+    font-size: 600%;
+    color: darksalmon;
+    letter-spacing: 1px;
+    animation: mymove 5s infinite;
+    animation-name: move;
+    animation-duration: 4s;
+    position: relative;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+}
+
+@keyframes move{
+    from{left:0px;}
+    to{left:800px;}
+
+}
+
+.back{
+    position: absolute;
+    top: 1px;
+    font-size: 200%;
+}
+
+.back :hover{
+    text-transform: uppercase;
+}
