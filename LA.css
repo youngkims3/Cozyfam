@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+}
+
+html{
+    scroll-snap-type: y mandatory;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: start; /* Snap at the start of each section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part-1{
+    background-image: url("Photos\ for\ Cozyfam/da356057-9f8b-418d-b250-47d22f71f603 copy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "dilemma-variable", sans-serif;
+    font-variation-settings: "wght" 600;
+    font-weight: 250;
+    font-size: 500%;
+    padding: 0;
+    color: #F1F0F0;
+}
+
+
+.Header{
+    display: flex; /* Enable flex container behavior */
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Align child elements to the center horizontally */
+    justify-content: flex-start; /* Align child elements to the start of the container vertically */
+    height: 100vh; /* Make the container take the full height of the viewport */
+    color: #F1F0F0;
+}
+
+.back{
+    font-family: "acier-bat-strokes", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.back{
+    position: absolute; /* Add this line to position it absolutely within the section */
+    top: 0; /* Position from the top */
+    left: 0; /* Position from the left */
+    font-size: 50%;
+}
+
+.back :hover{
+    font-family: "acier-bat-outline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F1F0F0;
+}
+
+.part-2{
+    background-color: #F1F0F0;
+}
+
+.part-3{
+    background-color: black;
+}
+
+  /* unvisited link */
+a:link {
+    color: #F1F0F0;
+}
+
+  /* visited link */
+a:visited {
+    color: #F1F0F0;
+}
+
+body a {
+    text-decoration: none;
+}
+
+#square {
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the text box horizontally */
+    padding: 20px; /* Add padding as needed */
+    background-color: black; /* Semi-transparent white background */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    color: #F1F0F0;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    font-family: "acier-bat-outline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: top;
+    transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
+}
+
+.wipeEnter {
+    transform: scaleY(0);
+    opacity: 0;
+}
+
+#square.disappear {
+    /* Set opacity to 0 to make it disappear */
+    opacity: 0;
+}
+
+
+#square:hover{
+    font-size: 300%;
+    font-family: "acier-bat-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 1062px;
+    height: 135px;
+}
+
+.hidden {
+    display: none;
+}
+
+#displayText {
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the text box horizontally */
+    padding: 20px; /* Add padding as needed */
+    background-color: black; /* Semi-transparent white background */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    font-family: "acier-bat-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F1F0F0;
+}
