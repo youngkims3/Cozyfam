@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+}
+
+.page-1{
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: flex-start; /* Align items at the start (top) */
+    align-items: center;
+    background-image: url("Photos\ for\ Cozyfam/file-20221130-20-qnisxd copy 3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #8262A4;
+    padding: 0%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: "bd-caramel-variable", sans-serif;
+    font-variation-settings: "BUBL" 100;
+    animation: moveFont 5s infinite alternate; /* Adjust the duration and other properties */
+    letter-spacing: 0px;
+    font-size: 600%;
+    margin-bottom: auto;
+    color: #E5845C;
+}
+
+@keyframes moveFont {
+    0% {
+      font-variation-settings: 'BUBL' 0;
+    }
+    100% {
+      font-variation-settings: 'BUBL' 500;
+    }
+}
+
+#locations{
+    animation: rotateImage 5s linear infinite;
+    font-family: "acier-bat-strokes", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    margin-top: 100px;
+}
+
+@keyframes rotateImage {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg); /* Rotate the image 360 degrees */
+    }
+}
+
+.back{
+    font-family: "acier-bat-strokes", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.back{
+    position: absolute; /* Add this line to position it absolutely within the section */
+    top: 0; /* Position from the top */
+    left: 0; /* Position from the left */
+    font-size: 250%;
+}
+
+.back :hover{
+    font-family: "acier-bat-outline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E5845C;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.Korea :hover{
+    font-family: "acier-bat-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%;
+    text-transform: uppercase
+}
+
+.Vancouver :hover{
+    font-family: "acier-bat-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%;
+    text-transform: uppercase
+}
+
+.Kuwait :hover{
+    font-family: "acier-bat-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%;
+    text-transform: uppercase
+}
+
+.NYC :hover{
+    font-family: "acier-bat-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%;
+    text-transform: uppercase
+}
+
+.LosAngeles :hover{
+    font-family: "acier-bat-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%;
+    text-transform: uppercase
+}
+
+.Türkiye :hover{
+    font-family: "acier-bat-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%;
+    text-transform: uppercase
+}
+
+
+
+/* body{
+    text-align: center;
+    font-size: 300%;
+    color: coral;
+    background-color: rgb(159, 90, 223);
+    letter-spacing: -5px;
+    background-image: url("Photos\ for\ Cozyfam/file-20221130-20-qnisxd copy.jpg");
+    background-repeat: repeat-x;
+    background-size: 33.33% 100vh;
+}
+
+/* unvisited link *
+a:link {
+    color: coral;
+  }
+
+  /* visited link *
+a:visited {
+    color: #8262A4;
+  }
+
+#locations{
+    animation: rotateImage 5s linear infinite;
+    font-family: "etna", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@keyframes rotateImage {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg); /* Rotate the image 360 degrees *
+    }
+}
+
+h1{
+    font-family: "bd-caramel-variable", sans-serif;
+    font-variation-settings: "BUBL" 100;
+    animation: moveFont 5s infinite alternate; /* Adjust the duration and other properties *
+    letter-spacing: 5px;
+}
+
+@keyframes moveFont {
+    0% {
+      font-variation-settings: 'BUBL' 0;
+    }
+    100% {
+      font-variation-settings: 'BUBL' 500;
+    }
+}
+
+.Korea{
+    letter-spacing: -1px;
+    color: coral;
+}
+
+.Korea :hover{
+    font-size: 300%;
+    text-transform: uppercase
+}
+
+.Vancouver{
+    letter-spacing: -1px;
+}
+
+.Vancouver :hover{
+    font-size: 300%;
+    text-transform: uppercase
+}
+
+.Kuwait{
+    letter-spacing: -1px;
+}
+.Kuwait :hover{
+    font-size: 300%;
+    text-transform: uppercase
+}
+
+.NYC{
+    letter-spacing: -1px;
+}
+.NYC :hover{
+    font-size: 300%;
+    text-transform: uppercase
+}
+
+.back{
+    position: absolute;
+    top: 1px;
+    font-size: 85%;
+    letter-spacing: -2px;
+    font-family: "etna", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: coral;
+}
+
+.back :hover{
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+      padding: 5px;
+    }
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 1200px) {
+    .container {
+      width: 90%;
+    }
+  }
+
+  @media screen and (min-width: 1201px) {
+    .container {
+      width: 80%;
+    }
+  }
